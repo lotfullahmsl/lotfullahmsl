@@ -8,7 +8,7 @@
 </h1>
 
 <h2 align="center">
-  <img src="https://img.shields.io/badge/Do_not_judge_my_work_from_this_page-FF0000?style=for-the-badge&logoColor=FF0000&labelColor=FF0000"> 
+  <img src="https://img.shields.io/badge/Do_not_judge_my_work_by_looking_at_this_page-FF0000?style=for-the-badge&logoColor=FF0000&labelColor=FF0000"> 
 </h2>
 
 <h2 align="center">
