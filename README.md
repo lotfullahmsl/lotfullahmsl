@@ -7,10 +7,10 @@
   />
 </h1>
 
-<p align="center" style="font-size:30px; font-weight:700; color:#ff0000;">
-  Do not judge my work from this page! 🙂
-</p>
+<h2 align="center">
+  <img src="https://img.shields.io/badge/Do_not_judge_my_work_from_this_page-FF0000?style=for-the-badge&logoColor=FF0000&labelColor=FF0000"> 
+</h2>
 
-<p align="center" style="font-size:28px; font-weight:600;">
-  Check my Repositories Instead!
-</p>
+<h2 align="center">
+  Check my Repositories
+</h2>
