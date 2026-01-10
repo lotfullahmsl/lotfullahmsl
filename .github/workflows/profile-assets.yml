@@ -1,0 +1,56 @@
+name: Profile Assets
+
+on:
+  schedule:
+    - cron: "30 1 * * *" # daily UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: lotfullahmsl
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+
+      - name: Move assets
+        run: |
+          mkdir -p output
+          mv dist/snake.svg output/github-contribution-grid-snake.svg
+          mv dist/snake-dark.svg output/github-contribution-grid-snake-dark.svg
+
+      - name: Commit snake
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(assets): update snake"
+          file_pattern: output/*.svg
+
+  summary_cards:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: lotfullahmsl
+          UTC_OFFSET: 0
+
+      - name: Commit summary cards
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(assets): update profile summary cards"
+          file_pattern: profile-summary-card-output/**/*
