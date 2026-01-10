@@ -12,5 +12,5 @@
 </h2>
 
 <h2 align="center">
-  Check my Repositories
+  Check my Repositories Instead!
 </h2>
