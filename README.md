@@ -1,12 +1,16 @@
-<p align="center">
-	<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=54&duration=2500&pause=1000&color=22D3EE&center=true&vCenter=true&width=1000&lines=Lotfullah+Muslimwal" alt="Lotfullah Muslimwal" />
+<!-- Minimal GitHub Profile README -->
+
+<h1 align="center">
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=800&size=48&pause=1000&color=1E90FF&center=true&vCenter=true&width=900&lines=Lotfullah+Muslimwal"
+    alt="Lotfullah Muslimwal"
+  />
+</h1>
+
+<p align="center" style="font-size:30px; font-weight:700; color:#ff0000;">
+  Do not judge my work from this page! 🙂
 </p>
 
-<p align="center">
-	<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&duration=1&pause=999999999&color=FF3B3B&center=true&vCenter=true&width=1000&lines=I+Dont+want+you+to+design+me+by+here" alt="Do not judge my work from this page." />
-    Do not judge my work from this page.
-
+<p align="center" style="font-size:28px; font-weight:600;">
+  Check my Repositories Instead!
 </p>
-
-<h1 align="center">Instead, Check my Repositories!</h1>
-
