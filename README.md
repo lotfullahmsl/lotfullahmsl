@@ -4,6 +4,8 @@
 
 <p align="center">
 	<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&duration=1&pause=999999999&color=FF3B3B&center=true&vCenter=true&width=1000&lines=I+Dont+want+you+to+design+me+by+here" alt="Do not judge my work from this page." />
+    Do not judge my work from this page.
+
 </p>
 
 <h1 align="center">Instead, Check my Repositories!</h1>
